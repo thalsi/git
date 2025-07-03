@@ -1,6 +1,7 @@
 # ✅ Git Mastery Checklist (Beginner → Advanced)
 
 ---
+🟢 Beginner
 
 ## 🧩 1. Setup & Configuration
 - [ ] Install Git
@@ -57,6 +58,7 @@
 - [ ] git reset --merge (undo merge)
 
 ---
+🟡 Intermediate
 
 ## 🔁 6. Rebase & Cherry-Pick
 - [ ] git rebase <branch>
@@ -165,6 +167,7 @@
 - [ ] Use Nx or Lerna for monorepo
 
 ---
+🔴 Advanced
 
 ## 🔐 18. Security & Best Practices
 - [ ] Use .env files and gitignore
