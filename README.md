@@ -1,6 +1,7 @@
 # ✅ Git Mastery Checklist (Beginner → Advanced)
 
 Master Git step-by-step from beginner to advanced. Check off tasks as you complete them!
+
 ---
 🟢 Beginner
 
