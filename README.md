@@ -1,6 +1,4 @@
-# 🧠 Git Mastery Checklist (Beginner → Advanced)
-
-Master Git step-by-step from beginner to advanced. Check off tasks as you complete them!
+# ✅ Git Mastery Checklist (Beginner → Advanced)
 
 ---
 
@@ -34,6 +32,7 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] git merge <branch>
 - [ ] git branch -d <branch>
 - [ ] git log --graph
+- [ ] Rebase vs Merge (pros/cons)
 
 ---
 
@@ -43,6 +42,9 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] git push / git pull
 - [ ] git clone <url>
 - [ ] git remote -v
+- [ ] git push --set-upstream origin <branch>
+- [ ] git branch -vv
+- [ ] git branch --set-upstream-to
 
 ---
 
@@ -52,12 +54,15 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] git commit --amend
 - [ ] git reflog
 - [ ] git clean -fd
+- [ ] git reset --merge (undo merge)
 
 ---
 
 ## 🔁 6. Rebase & Cherry-Pick
 - [ ] git rebase <branch>
 - [ ] git rebase -i HEAD~n
+- [ ] git rebase --autosquash
+- [ ] git rebase --abort / --skip / --continue
 - [ ] Resolve conflicts
 - [ ] git cherry-pick <commit>
 - [ ] git merge --squash
@@ -87,6 +92,7 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] git blame <file>
 - [ ] git shortlog
 - [ ] git describe
+- [ ] git shortlog -sn
 
 ---
 
@@ -96,6 +102,7 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] Gitflow workflow
 - [ ] Code review & approvals
 - [ ] Protected branches
+- [ ] Squash commits before merge
 
 ---
 
@@ -104,6 +111,7 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] Use pre-commit, commit-msg, post-merge
 - [ ] Use lint-staged for auto formatting
 - [ ] Create .husky/ scripts
+- [ ] Use `git commit --no-verify` (with caution)
 
 ---
 
@@ -112,6 +120,8 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] Use Git GUI tools
 - [ ] Use .gitattributes
 - [ ] Try https://learngitbranching.js.org
+- [ ] Use GitLens in VS Code
+- [ ] Use `diff-so-fancy` for better diffs
 
 ---
 
@@ -127,7 +137,7 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] Conflict resolution
 - [ ] Detached HEAD fixes
 - [ ] Use reflog to recover lost commits
-- [ ] git reset --merge to undo merge
+- [ ] git bisect start / bad / good (binary search debugging)
 
 ---
 
@@ -136,6 +146,7 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] Configure .github/workflows/
 - [ ] Use CI for test/lint/build
 - [ ] Auto deployment with git tags
+- [ ] Test GitHub Actions locally with `act`
 
 ---
 
@@ -160,6 +171,7 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] Install git-secrets
 - [ ] GPG sign commits
 - [ ] Enable 2FA on GitHub
+- [ ] Remove secrets from history (BFG or git filter-branch)
 
 ---
 
@@ -167,7 +179,8 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 - [ ] Simulate team workflows
 - [ ] Use pair programming tools (git-duet)
 - [ ] Create/merge PRs
-- [ ] Squash commits before merge
+- [ ] Trunk-based development
+- [ ] Fork vs shared branch model
 
 ---
 
@@ -179,7 +192,16 @@ Master Git step-by-step from beginner to advanced. Check off tasks as you comple
 
 ---
 
-## 📚 21. Learning Resources
+## 🧪 21. Extra Git Tools
+- [ ] git worktree (multiple working dirs)
+- [ ] git archive (create zip/tar)
+- [ ] git format-patch / git apply / git am (email-based flow)
+- [ ] git fame (contribution analytics)
+- [ ] git LFS for large files
+
+---
+
+## 📚 22. Learning Resources
 - [ ] https://git-scm.com/book
 - [ ] https://learngitbranching.js.org
 - [ ] https://ohmygit.org
@@ -195,3 +217,64 @@ git config --global alias.br branch
 git config --global alias.cm commit
 git config --global alias.lg "log --oneline --graph --all"
 ```
+
+---
+
+## 🧠 23. Advanced History & Commit Management
+- [ ] git commit --fixup and git rebase --autosquash
+- [ ] git notes – add metadata/comments to commits
+- [ ] git revert -n (stage multiple reverts)
+- [ ] Understand orphan branches: git checkout --orphan newbranch
+
+---
+
+## 🗃️ 24. Repo Size & History Optimization
+- [ ] git gc (garbage collection to optimize repo)
+- [ ] git repack (compress objects)
+- [ ] git verify-pack / git count-objects -v (inspect storage)
+- [ ] Use BFG Repo-Cleaner for large repos
+
+---
+
+## 🛡️ 25. Git & Compliance
+- [ ] Audit history for secrets (truffleHog, gitleaks)
+- [ ] Enforce signed commits via branch protection
+- [ ] Enforce linear history in main branch
+- [ ] Use branch naming conventions and enforce them
+
+---
+
+## ⚡ 26. Git Performance & Scaling
+- [ ] Use git sparse-checkout (large monorepos)
+- [ ] Partial clone (--filter=blob:none) for huge projects
+- [ ] Split large repos with git subtree split
+
+---
+
+## 🔧 27. Custom Git Workflows
+- [ ] Setup custom merge drivers
+- [ ] Setup .mailmap to unify commit authors
+- [ ] Use .git/info/exclude for local-only ignores
+- [ ] Custom diff drivers (e.g., for .psd files)
+
+---
+
+## 📈 28. Git Analytics & Stats
+- [ ] Generate contributor graphs (git shortlog, git fame)
+- [ ] Generate churn stats (git log --stat)
+- [ ] Track contribution activity with git log --since or GitHub Insights
+
+---
+
+## 🔁 29. Git Replace & Filter Branch
+- [ ] git replace to swap objects in history
+- [ ] git filter-branch for complex rewriting
+- [ ] Use with caution — avoid on shared history
+
+---
+
+## 🌐 30. Git Across Environments
+- [ ] Use Git with GitHub CLI (gh)
+- [ ] Use Git in CI runners and scripts
+- [ ] Use Git in Docker images for automation
+- [ ] Access GitHub/GitLab via REST API
