@@ -38,17 +38,17 @@
 ## 🌿 3. Branching & Merging
 1. Branching
 
-- [ ] `git branch` – List all local branches  
-- [ ] `git branch <name>` – Create a new branch  
-- [ ] `git switch <branch>` – Switch to a branch (newer)  
-- [ ] `git checkout <branch>` – Switch to a branch (older method)  
-- [ ] `git checkout -b <name>` – Create and switch to a new branch  
-- [ ] `git branch -d <name>` – Delete a local branch (safe)  
-- [ ] `git branch -D <name>` – Delete a local branch (force)  
-- [ ] `git branch -m <new>` – Rename current branch  
-- [ ] `git branch -vv` – Show branches with last commit info  
-- [ ] `git push origin <branch>` – Push branch to remote  
-- [ ] `git push --set-upstream origin <branch>` – Link local branch to remote
+- [x] `git branch` – List all local branches  
+- [x] `git branch <name>` – Create a new branch  
+- [x] `git switch <branch>` – Switch to a branch (newer)  
+- [x] `git checkout <branch>` – Switch to a branch (older method)  
+- [x] `git checkout -b <name>` – Create and switch to a new branch  
+- [x] `git branch -d <name>` – Delete a local branch (safe)  
+- [x] `git branch -D <name>` – Delete a local branch (force)  
+- [x] `git branch -m <new>` – Rename current branch  
+- [x] `git branch -vv` – Show branches with last commit info  
+- [x] `git push origin <branch>` – Push branch to remote  
+- [x] `git push --set-upstream origin <branch>` – Link local branch to remote
 
 2. Merging
 Git Merge is used to combine changes from one branch into another.
