@@ -69,8 +69,8 @@ Usually, you merge a feature branch into a main/stable branch.
 - [x] `git merge <branch>` – Merge the given branch into the current branch  
 - [x] `git merge --no-ff <branch>` – Force a merge commit even on fast-forward  
 - [x] `git merge --squash <branch>` – Merge and squash into a single commit  
-- [ ] `git merge --abort` – Abort a merge in progress  
-- [ ] `git merge --continue` – Continue merge after resolving conflicts  
+- [x] `git merge --abort` – Abort a merge in progress  
+- [x] `git merge --continue` – Continue merge after resolving conflicts  
 
 ---
 
