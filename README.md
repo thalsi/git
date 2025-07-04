@@ -4,24 +4,32 @@
 🟢 Beginner
 
 ## 🧩 1. Setup & Configuration
-- [ ] Install Git
-- [ ] git config --global user.name "Your Name"
-- [ ] git config --global user.email "you@example.com"
-- [ ] Set default branch: `init.defaultBranch main`
-- [ ] Set default editor: VS Code, Vim, etc.
-- [ ] Enable color UI
-- [ ] View current config: `git config --list`
+- [x] Install Git
+- [x] git config --global user.name "Your Name"
+- [x] git config --global user.email "you@example.com"
+- [x] Set default branch: `init.defaultBranch main`
+- [x] Set default editor: VS Code, Vim, etc.
+- [x] Enable color UI
+- [x] View current config: `git config --list`
+- [x] View current config: `git config --list --global`
 
 ---
 
 ## 📁 2. Git Basics
-- [ ] git init
-- [ ] git status
-- [ ] git add <file> / git add .
-- [ ] git commit -m "message"
-- [ ] git log / git log --oneline
-- [ ] git diff
-- [ ] git show
+- [x] git init
+        - Initialize a new Git repository.
+- [x] git status
+        - Check the status of files — modified, staged, untracked.
+- [x] git add <file> / git add .
+        - Stage file(s) to be committed.
+- [x] git commit -m "message"
+        - Commit staged changes with a message.
+- [x] git log / git log --oneline
+        - View commit history (detailed or short).
+- [x] git diff
+        - See what’s changed before staging.
+- [x] git show
+        - Show the details of a specific commit.
 - [ ] Use .gitignore
 
 ---

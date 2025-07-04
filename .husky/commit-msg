@@ -1,2 +1,0 @@
-echo '✅ Commit Message';
-npx --no-install commitlint --edit "$1"
