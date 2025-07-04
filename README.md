@@ -39,10 +39,10 @@
 - [x] git branch
 - [x] git checkout <branch> / git switch
 - [x] git checkout -b <branch>
-- [ ] git merge <branch>
+- [x] git merge <branch>
 - [x] git branch -d <branch>
 - [x] git log --graph
-- [ ] Rebase vs Merge (pros/cons)
+- [x] Rebase vs Merge (pros/cons)
 
 ---
 
