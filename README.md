@@ -66,23 +66,11 @@ Usually, you merge a feature branch into a main/stable branch.
 | 🔴 Manual Merge                      | Required when there’s a **conflict**.                       |
 
 ✳️ Common Merge Commands
-- [x] `git merge <branch>` – Merge the specified branch into the current branch  
-- [x] `git merge --no-ff <branch>` – Always create a merge commit (no fast-forward)  
-- [x] `git merge --squash <branch>` – Combine changes into one commit before merging  
-- [ ] `git merge --commit` – Perform the merge and commit immediately (default)  
-- [ ] `git merge --no-commit` – Merge but don’t automatically create a commit  
-- [ ] `git merge --edit` – Edit the merge commit message before committing  
-- [ ] `git merge --no-edit` – Use default commit message without editing  
-- [ ] `git merge --strategy=<strategy>` – Use a specific merge strategy (e.g., recursive, ours, theirs)  
-- [ ] `git merge --strategy-option=<option>` – Pass options to the merge strategy  
-- [ ] `git merge --abort` – Abort the merge and return to pre-merge state  
-- [ ] `git merge --continue` – Continue merge after conflicts are resolved  
-- [ ] `git merge --skip` – Skip the current conflicting commit during merge  
-- [ ] `git log --merge` – Show commits causing the merge conflict  
-- [ ] `git diff --name-only --diff-filter=U` – Show files with merge conflicts  
-- [ ] Resolve conflicts manually – Edit conflicting files and mark them as resolved  
-- [ ] `git status` – See current merge state and conflicted files  
-- [ ] `git commit` – Complete merge after resolving conflicts (if auto-commit is disabled)  
+- [x] `git merge <branch>` – Merge the given branch into the current branch  
+- [x] `git merge --no-ff <branch>` – Force a merge commit even on fast-forward  
+- [x] `git merge --squash <branch>` – Merge and squash into a single commit  
+- [ ] `git merge --abort` – Abort a merge in progress  
+- [ ] `git merge --continue` – Continue merge after resolving conflicts  
 
 ---
 
