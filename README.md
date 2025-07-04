@@ -36,12 +36,12 @@
 ---
 
 ## 🌿 3. Branching & Merging
-- [ ] git branch
-- [ ] git checkout <branch> / git switch
-- [ ] git checkout -b <branch>
+- [x] git branch
+- [x] git checkout <branch> / git switch
+- [x] git checkout -b <branch>
 - [ ] git merge <branch>
-- [ ] git branch -d <branch>
-- [ ] git log --graph
+- [x] git branch -d <branch>
+- [x] git log --graph
 - [ ] Rebase vs Merge (pros/cons)
 
 ---
