@@ -30,7 +30,8 @@
         - See what’s changed before staging.
 - [x] git show
         - Show the details of a specific commit.
-- [ ] Use .gitignore
+- [x] Use .gitignore
+        - Ignore files you don’t want Git to track (e.g., node_modules/, env, dist).
 
 ---
 
