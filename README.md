@@ -66,9 +66,9 @@ Usually, you merge a feature branch into a main/stable branch.
 | 🔴 Manual Merge                      | Required when there’s a **conflict**.                       |
 
 ✳️ Common Merge Commands
-- [ ] `git merge <branch>` – Merge the specified branch into the current branch  
-- [ ] `git merge --no-ff <branch>` – Always create a merge commit (no fast-forward)  
-- [ ] `git merge --squash <branch>` – Combine changes into one commit before merging  
+- [x] `git merge <branch>` – Merge the specified branch into the current branch  
+- [x] `git merge --no-ff <branch>` – Always create a merge commit (no fast-forward)  
+- [x] `git merge --squash <branch>` – Combine changes into one commit before merging  
 - [ ] `git merge --commit` – Perform the merge and commit immediately (default)  
 - [ ] `git merge --no-commit` – Merge but don’t automatically create a commit  
 - [ ] `git merge --edit` – Edit the merge commit message before committing  
