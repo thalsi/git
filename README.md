@@ -49,6 +49,8 @@
 - [x] `git branch -vv` – Show branches with last commit info  
 - [x] `git push origin <branch>` – Push branch to remote  
 - [x] `git push --set-upstream origin <branch>` – Link local branch to remote
+- [x] `git fetch --all` – Fetches all branches from all remotes (usually just origin) but does NOT merge or checkout anything.
+- [x] `git fetch -p` – It tells Git to remove (prune) any remote-tracking branches that no longer exist on the remote.
 
 2. Merging
 Git Merge is used to combine changes from one branch into another.
@@ -64,14 +66,23 @@ Usually, you merge a feature branch into a main/stable branch.
 | 🔴 Manual Merge                      | Required when there’s a **conflict**.                       |
 
 ✳️ Common Merge Commands
-| Command                       | Purpose                                                 |
-| ----------------------------- | ------------------------------------------------------- |
-| `git merge <branch>`          | Merge the given branch into the current branch          |
-| `git merge --no-ff <branch>`  | Force a merge commit even when fast-forward is possible |
-| `git merge --squash <branch>` | Combine all commits into one, without committing        |
-| `git log --graph`             | Visualize history with merges                           |
-| `git branch --merged`         | Show merged branches                                    |
-| `git branch --no-merged`      | Show unmerged branches                                  |
+- [ ] `git merge <branch>` – Merge the specified branch into the current branch  
+- [ ] `git merge --no-ff <branch>` – Always create a merge commit (no fast-forward)  
+- [ ] `git merge --squash <branch>` – Combine changes into one commit before merging  
+- [ ] `git merge --commit` – Perform the merge and commit immediately (default)  
+- [ ] `git merge --no-commit` – Merge but don’t automatically create a commit  
+- [ ] `git merge --edit` – Edit the merge commit message before committing  
+- [ ] `git merge --no-edit` – Use default commit message without editing  
+- [ ] `git merge --strategy=<strategy>` – Use a specific merge strategy (e.g., recursive, ours, theirs)  
+- [ ] `git merge --strategy-option=<option>` – Pass options to the merge strategy  
+- [ ] `git merge --abort` – Abort the merge and return to pre-merge state  
+- [ ] `git merge --continue` – Continue merge after conflicts are resolved  
+- [ ] `git merge --skip` – Skip the current conflicting commit during merge  
+- [ ] `git log --merge` – Show commits causing the merge conflict  
+- [ ] `git diff --name-only --diff-filter=U` – Show files with merge conflicts  
+- [ ] Resolve conflicts manually – Edit conflicting files and mark them as resolved  
+- [ ] `git status` – See current merge state and conflicted files  
+- [ ] `git commit` – Complete merge after resolving conflicts (if auto-commit is disabled)  
 
 ---
 
@@ -100,6 +111,10 @@ Usually, you merge a feature branch into a main/stable branch.
 
 ## 🔁 6. Rebase & Cherry-Pick
 
+### 🍒 Cherry-pick
+- [ ] `git cherry-pick <commit>` – Apply specific commit from another branch  
+
+### Rebase
 git rebase moves or reapplies commits from one branch on top of another.
 It rewrites history to create a cleaner, linear commit history.
 
@@ -109,18 +124,17 @@ It rewrites history to create a cleaner, linear commit history.
 ✅ Keep project history linear
 ✅ Re-apply your local feature branch on top of main
 
-- [ ] `git rebase <branch>` – Reapply current branch commits onto `<branch>`  
-- [ ] `git rebase -i <branch>` – Interactive rebase – squash, reword, or drop commits  
-- [ ] `git rebase -i HEAD~n` – Interactive rebase last n commits  
-- [ ] `git rebase --autosquash` – Automatically reorder/squash commits marked with fixup/squash  
-- [ ] `git rebase --continue` – Continue after resolving conflicts  
-- [ ] `git rebase --abort` – Cancel the current rebase  
-- [ ] `git rebase --skip` – Skip the conflicting commit during rebase  
-- [ ] `git pull --rebase` – Pull with rebase instead of merge  
-- [ ] Resolve conflicts – Manually fix conflicts during rebase or merge  
-- [ ] `git cherry-pick <commit>` – Apply a specific commit from another branch  
-- [ ] `git merge --squash` – Merge changes as a single commit (squash merge)
-
+- [ ] `git rebase <branch>` – Reapply current branch commits on top of `<branch>`  
+- [ ] `git rebase -i <branch>` – Interactive rebase: squash, reword, drop commits  
+- [ ] `git rebase -i HEAD~n` – Interactively edit the last `n` commits  
+- [ ] `git rebase --autosquash` – Auto-squash commits marked with `fixup!` or `squash!`  
+- [ ] `git rebase --continue` – Continue rebase after resolving conflicts  
+- [ ] `git rebase --abort` – Abort the rebase and return to the previous state  
+- [ ] `git rebase --skip` – Skip the current conflicting commit during rebase  
+- [ ] `git pull --rebase` – Pull latest changes using rebase instead of merge  
+- [ ] `git status` – Check status during rebase (conflicts, progress)  
+- [ ] `git log` – Review commit history before/after rebase  
+- [ ] Resolve conflicts manually – Fix file conflicts and mark as resolved  
 
 ---
 
