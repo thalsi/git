@@ -139,7 +139,7 @@ It rewrites history to create a cleaner, linear commit history.
 ---
 
 ## 🏷️ 7. Tags & Releases
-- [ ] git tag <name>
+- [x] git tag <name>
 - [ ] git tag -a <name> -m "message"
 - [ ] git show <tag>
 - [ ] git push origin <tag>
