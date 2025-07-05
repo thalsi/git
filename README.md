@@ -116,18 +116,26 @@ It rewrites history to create a cleaner, linear commit history.
 ✅ Keep project history linear
 ✅ Re-apply your local feature branch on top of main
 
-- [ ] `git rebase <branch>` – Reapply current branch commits on top of `<branch>`  
-- [ ] `git rebase -i <branch>` – Interactive rebase: squash, reword, drop commits  
-- [ ] `git rebase -i HEAD~n` – Interactively edit the last `n` commits  
-- [ ] `git rebase --autosquash` – Auto-squash commits marked with `fixup!` or `squash!`  
-- [ ] `git rebase --continue` – Continue rebase after resolving conflicts  
-- [ ] `git rebase --abort` – Abort the rebase and return to the previous state  
-- [ ] `git rebase --skip` – Skip the current conflicting commit during rebase  
-- [ ] `git pull --rebase` – Pull latest changes using rebase instead of merge  
-- [ ] `git status` – Check status during rebase (conflicts, progress)  
-- [ ] `git log` – Review commit history before/after rebase  
-- [ ] Resolve conflicts manually – Fix file conflicts and mark as resolved  
+- [x] `git rebase <branch>` – Reapply current branch commits on top of `<branch>`  
+- [x] `git rebase -i <branch>` – Interactive rebase: squash, reword, drop commits  
+- [x] `git rebase -i HEAD~n` – Interactively edit the last `n` commits  
+- [x] `git rebase --autosquash` – Auto-squash commits marked with `fixup!` or `squash!`  
+- [x] `git rebase --continue` – Continue rebase after resolving conflicts  
+- [x] `git rebase --abort` – Abort the rebase and return to the previous state  
+- [x] `git rebase --skip` – Skip the current conflicting commit during rebase  
+- [x] `git pull --rebase` – Pull latest changes using rebase instead of merge  
+- [x] `git status` – Check status during rebase (conflicts, progress)  
+- [x] `git log` – Review commit history before/after rebase  
+- [x] Resolve conflicts manually – Fix file conflicts and mark as resolved  
 
+| Command  | `git rebase -i <branch>` Meaning                  |
+| -------- | ------------------------------------------------- |
+| `pick`   | Keep commit as-is                                 |
+| `reword` | Change commit message                             |
+| `edit`   | Pause to change content                           |
+| `squash` | Combine with previous commit (keep both messages) |
+| `fixup`  | Combine with previous, discard this message       |
+| `drop`   | Delete this commit                                |
 ---
 
 ## 🏷️ 7. Tags & Releases
