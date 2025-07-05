@@ -102,7 +102,9 @@ Usually, you merge a feature branch into a main/stable branch.
 ## 🔁 6. Rebase & Cherry-Pick
 
 ### 🍒 Cherry-pick
-- [ ] `git cherry-pick <commit>` – Apply specific commit from another branch  
+- [x] `git cherry-pick <commit>` – Apply specific commit from another branch  
+- [x] `git cherry-pick commit1 commit2 commit3` – You can also cherry-pick multiple commits
+- [x] `git cherry-pick A^..B` –  even a range of commits
 
 ### Rebase
 git rebase moves or reapplies commits from one branch on top of another.
