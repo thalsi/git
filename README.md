@@ -75,19 +75,19 @@ Usually, you merge a feature branch into a main/stable branch.
 ---
 
 ## 🌐 4. Remote Repositories
-- [ ] git remote add origin <url>
-- [ ] git push -u origin main
-- [ ] git push / git pull
-- [ ] git clone <url>
-- [ ] git remote -v
-- [ ] git push --set-upstream origin <branch>
-- [ ] git branch -vv
-- [ ] git branch --set-upstream-to
+- [x] git remote add origin <url>
+- [x] git push -u origin main
+- [x] git push / git pull
+- [x] git clone <url>
+- [x] git remote -v
+- [x] git push --set-upstream origin <branch>
+- [x] git branch -vv
+- [x] git branch --set-upstream-to
 
 ---
 
 ## 🧼 5. Undo & History Fixing
-- [ ] git reset --soft / --mixed / --hard
+- [x] git reset --soft / --mixed / --hard
 - [ ] git restore <file>
 - [ ] git commit --amend
 - [ ] git reflog
