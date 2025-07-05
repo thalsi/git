@@ -88,11 +88,13 @@ Usually, you merge a feature branch into a main/stable branch.
 
 ## 🧼 5. Undo & History Fixing
 - [x] git reset --soft / --mixed / --hard
-- [ ] git restore <file>
-- [ ] git commit --amend
-- [ ] git reflog
-- [ ] git clean -fd
-- [ ] git reset --merge (undo merge)
+- [x] git restore <file>
+- [x] git restore . <file>
+- [x] git restore --staged <file>
+- [x] git commit --amend
+- [x] git reflog
+- [x] git clean -fd
+- [x] git reset --merge (undo merge)
 
 ---
 🟡 Intermediate
