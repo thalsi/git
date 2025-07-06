@@ -149,17 +149,17 @@ It rewrites history to create a cleaner, linear commit history.
 
 ## 📦 8. Stashing & Cleaning
 
-- [ ] `git stash` – Stash tracked modified files
-- [ ] `git stash -u` – Stash tracked + untracked files (not ignored)
-- [ ] `git stash -a` – Stash all (tracked + untracked + ignored)
-- [ ] `git stash list` – View list of stashes
-- [ ] `git stash show` – Show summary of latest stash
-- [ ] `git stash show -p` – Show patch/diff of latest stash
-- [ ] `git stash pop` – Apply stash and delete it
-- [ ] `git stash apply` – Apply stash but keep it
-- [ ] `git stash drop` – Delete latest stash
-- [ ] `git stash clear` – Delete all stashes
-- [ ] `git stash push -m "message"` – Stash with custom message
+- [x] `git stash` – Stash tracked modified files
+- [x] `git stash -u` – Stash tracked + untracked files (not ignored)
+- [x] `git stash -a` – Stash all (tracked + untracked + ignored)
+- [x] `git stash list` – View list of stashes
+- [x] `git stash show` – Show summary of latest stash
+- [x] `git stash show -p` – Show patch/diff of latest stash
+- [x] `git stash pop` – Apply stash and delete it
+- [x] `git stash apply` – Apply stash but keep it
+- [x] `git stash drop` – Delete latest stash
+- [x] `git stash clear` – Delete all stashes
+- [x] `git stash push -m "message"` – Stash with custom message
 
 ---
 
