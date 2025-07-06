@@ -1,3 +1,0 @@
-Complete login module
-Complete login home
-Finalized user login system

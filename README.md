@@ -164,12 +164,12 @@ It rewrites history to create a cleaner, linear commit history.
 ---
 
 ## 🔍 9. Git Inspection Tools
-- [ ] git log with formatting
-- [ ] git diff --cached
-- [ ] git blame <file>
-- [ ] git shortlog
-- [ ] git describe
-- [ ] git shortlog -sn
+- [x] git log with formatting
+- [x] git diff --cached
+- [x] git blame <file>
+- [x] git describe
+- [x] git shortlog
+- [x] git shortlog -sn
 
 ---
 
