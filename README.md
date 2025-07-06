@@ -174,7 +174,7 @@ It rewrites history to create a cleaner, linear commit history.
 ---
 
 ## 👥 10. Team Collaboration
-- [ ] Use Pull Requests / Merge Requests
+- [x] Use Pull Requests / Merge Requests
 - [ ] Feature branch workflow
 - [ ] Gitflow workflow
 - [ ] Code review & approvals
