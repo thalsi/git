@@ -175,19 +175,19 @@ It rewrites history to create a cleaner, linear commit history.
 
 ## 👥 10. Team Collaboration
 - [x] Use Pull Requests / Merge Requests
-- [ ] Feature branch workflow
-- [ ] Gitflow workflow
-- [ ] Code review & approvals
-- [ ] Protected branches
-- [ ] Squash commits before merge
+- [x] Feature branch workflow
+- [x] Gitflow workflow
+- [x] Code review & approvals
+- [x] Protected branches
+- [x] Squash commits before merge
 
 ---
 
 ## 🛠️ 11. Git Hooks & Automation
-- [ ] Setup Husky for hooks
-- [ ] Use pre-commit, commit-msg, post-merge
-- [ ] Use lint-staged for auto formatting
-- [ ] Create .husky/ scripts
+- [x] Setup Husky for hooks
+- [x] Use pre-commit, commit-msg, post-merge
+- [x] Use lint-staged for auto formatting
+- [x] Create .husky/ scripts
 - [ ] Use `git commit --no-verify` (with caution)
 
 ---
@@ -228,10 +228,10 @@ It rewrites history to create a cleaner, linear commit history.
 ---
 
 ## ✏️ 16. Commit Message Standards
-- [ ] Use Conventional Commits (feat:, fix:, chore:, etc.)
-- [ ] Install commitlint
-- [ ] Use Commitizen (cz) for commits
-- [ ] Validate commits with hooks
+- [x] Use Conventional Commits (feat:, fix:, chore:, etc.)
+- [x] Install commitlint
+- [x] Use Commitizen (cz) for commits
+- [x] Validate commits with hooks
 
 ---
 
